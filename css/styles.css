@@ -47,13 +47,13 @@ p {
 .thick_line {
     border-bottom: 4px solid rgb(0, 0, 0);
     display: block;
-    margin: 1.5em 1em 0 1em;
+    margin: 1.5em 0 0 0;
 }
 
 .thin_line {
     border-bottom: 2px solid rgb(0, 0, 0);
     display: block;
-    margin: .2em 1em 2em 1em;
+    margin: .2em 0 2em 0;
 }
 
 #bottom_line {
