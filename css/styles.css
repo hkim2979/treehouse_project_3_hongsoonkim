@@ -144,10 +144,19 @@ input:focus, select:focus, textarea:focus {
     outline: none;
 }
 
+input, select, textarea {
+    transition: .3s;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
     margin: 0 4px 8px 0;
 }
+
+input[type="checkbox"]:focus,
+input[type="radio"]:focus {
+    outline:2px solid rgb(0, 117, 128);
+  }
 
 select {
     color: rgb(121, 121, 121);
