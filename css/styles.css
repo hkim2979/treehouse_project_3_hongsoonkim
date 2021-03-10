@@ -101,10 +101,17 @@ select {
     color: #333;
 }
 
-input:hover, select:hover, textarea:hover {
+input:hover, select:hover {
     background-color: rgb(224, 219, 197);
     border-radius: 5px;
     box-shadow: 0px 0px 12px rgba(192, 192, 192, 0.8);
+}
+
+textarea:hover {
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(80, 80, 80, 0.7);
+    transition: 0.1s linear; 
 }
 
 /********* BUTTON **********/
@@ -144,8 +151,9 @@ input:focus, select:focus, textarea:focus {
     outline: none;
 }
 
-input, select, textarea {
-    transition: .3s;
+textarea:focus {
+    height: 200px;
+    background-color: white;
 }
 
 input[type="checkbox"],
