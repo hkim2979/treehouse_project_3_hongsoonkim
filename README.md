@@ -2,7 +2,7 @@
 <p>The focus of this project was to create a registration form using HTML and CSS.</p>
 
 ## Live Demo
-Click [Link](https://hkim2979.github.io/project_1/) for a live look.
+Click [Link](https://hkim2979.github.io/project_3/) for a live look.
 
 <p align="center">
   <img src="https://github.com/hkim2979/treehouse_project_3_hongsoonkim/blob/main/image_1.png">
